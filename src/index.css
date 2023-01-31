@@ -1,5 +1,8 @@
 .app {
   display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   padding: 30px;
 }
 
@@ -8,18 +11,27 @@
   height: 560px;
   display: flex;
   flex-wrap: wrap;
+  padding: 10px;
+  border: 2px solid #313131;
+  border-radius: 25px;
 }
 
 .game img {
   width: 70px;
   height: 70px;
+  cursor: pointer;
 }
 
 .score-board {
-  padding: 20px;
+  padding-bottom: 15px;
   font-family: 'Courier New', Courier, monospace;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #313131
 }
 
 h1 {
   margin: 0;
+  font-size: 3rem;
 }
